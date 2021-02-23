@@ -1,0 +1,242 @@
+@import "variables";
+@import "reset";
+@import "button";
+@import "grid";
+
+.image-block {
+  vertical-align: middle;
+  margin-right: 10px;
+
+  p {
+    color: $darkBlue
+  }
+  img {
+    padding-right: 10px;
+  }
+  a {
+    color: $darkBlue;
+    font-size: 10px;
+  }
+}
+
+.body {
+  padding: 130px 0 200px;
+}
+
+.header {
+  color: $darkBlue;
+  background-color: white;
+
+  &-contact {
+    color: white;
+    background-color: $darkBlue;
+    padding: 8px 32px;
+
+    svg, img {
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+
+    p {
+      font-size: 10px;
+      line-height: 16px;
+    }
+  }
+
+  &-logo {
+    padding: 18px 32px;
+    border-bottom: 1px solid $gray;
+    & > table {
+      width: 100%;
+    }
+    a {
+      color: lightgray;
+
+    }
+  }
+
+  &-calendar {
+    padding: 10px 32px;
+    & > table {
+      width: 100%;
+    }
+
+    td {
+      vertical-align: middle;
+    }
+    .header-date {
+      font-size: 20px;
+      line-height: 30px;
+      text-align: right;
+      font-weight: 700;
+    }
+  }
+}
+
+.content {
+  background-color: white;
+
+
+  & > td {
+    border-top: 8px solid $gray;
+  }
+
+  & > .row {
+    padding: 24px;
+
+    table {
+      width: 100%;
+    }
+  }
+
+  h1, h3 {
+    color: $darkBlue;
+  }
+
+  h1 {
+    margin: 16px 0;
+  }
+
+  h3 {
+    margin: 8px 0;
+  }
+
+  .content-subheader {
+    margin: 0 0 8px;
+  }
+
+  .content-header {
+    margin: 0 0 24px;
+    text-align: center;
+  }
+
+  .button {
+    margin-top: 16px;
+  }
+
+  .button--large {
+    margin-top: 32px;
+  }
+}
+
+.blog {
+  img {
+    height: 200px;
+  }
+}
+
+.products {
+  img {
+    height: 120px;
+  }
+}
+
+.offer {
+  img {
+    height: 45px;
+  }
+}
+
+.benefits {
+  color: $darkBlue;
+
+  img {
+    height: 25px;
+    margin-bottom: 10px;
+  }
+
+
+  .button {
+    margin: 0 auto;
+  }
+
+  &-row {
+    & > td {
+      padding-bottom: 24px;
+    }
+  }
+}
+
+.footer {
+  background-color: $darkBlue;
+  color: white;
+
+  a {
+    text-decoration: underline;
+    font-weight: 400;
+    line-height: 13px;
+  }
+
+  &-header {
+    line-height: 18px;
+    margin-bottom: 8px;
+  }
+
+  &-contact {
+    & > td {
+      padding-bottom: 32px;
+    }
+
+    span {
+      font-weight: 700;
+    }
+    p {
+      font-size: 12px;
+      line-height: 14px;
+      margin-bottom: 8px;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .email {
+    a {
+      color: $lightBlue;
+    }
+  }
+
+  td {
+    vertical-align: top;
+  }
+  .list {
+    p {
+      margin-bottom: 8px;
+    }
+    a {
+      font-size: 12px;
+      line-height: 14px;
+    }
+  }
+}
+
+.copyright {
+  background-color: #171A43;
+  td {
+    padding: 12px 0;
+    text-align: center;
+    color: white;
+  }
+}
+
+.message {
+  width: 640px;
+  text-align: center;
+  padding-top: 30px;
+  color: $black;
+
+  a {
+    color: $lightBlue;
+  }
+}
+
+.email-notification {
+  padding-bottom: 8px;
+  text-align: center;
+
+  a {
+    font-size: 14px;
+    color: $lightBlue;
+  }
+}
