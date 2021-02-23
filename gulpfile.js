@@ -12,7 +12,11 @@ gulp.task('styles', () => {
 
 gulp.task('inline-css', function() {
     return gulp.src('./public/*.html')
-        .pipe(inlineCss())
+        .pipe(inlineCss(
+            {
+                removeStyleTags: false
+            }
+        ))
         .pipe(gulp.dest('build'));
 });
 
